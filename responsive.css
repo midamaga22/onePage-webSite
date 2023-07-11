@@ -1,0 +1,27 @@
+ 
+ /*--mobile*/
+
+@media (max-width: 744px)  {
+    .nav {
+        display: none;
+    }
+
+    .grid-par {
+        display: block;
+    }
+    .m-25px-b, .m-5px-b, .m-15px-b {
+        text-align: center;
+    }
+
+
+}
+ /*--mobile-end*/
+  /*--tablet--*/
+ @media (min-width: 750px) { 
+    .mobile-content {
+        display: none;
+    }
+   
+
+ }
+  /*--tablet-end*/

@@ -326,11 +326,11 @@ a:hover {
 }
 
 .m-btn.m-btn-theme2nd {
-  background: #53d267;
-  color: #ffffff;
+  background: #0E285C;
+  color: #FFFFFF;
 }
 .m-btn.m-btn-theme2nd.active, .m-btn.m-btn-theme2nd:focus, .m-btn.m-btn-theme2nd:hover {
-  background: #2dac41;
+  background: black;
   color: #ffffff;
 }
 
@@ -1073,9 +1073,7 @@ figcaption {
   background-color: #0050d8;
 }
 
-.theme-after:after {
-  background-color: #0050d8;
-}
+
 
 .theme-before:before {
   background-color: #0050d8;
@@ -1088,10 +1086,32 @@ figcaption {
 .theme-color {
   color: #0050d8;
 }
+/*--ingreso--*/
+
+.flex-img {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 .theme2nd-bg-alt {
   background-color: rgba(83, 210, 103, 0.1);
 }
+.grid-par {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.home-blue-font {
+  position: absolute;
+  width: 38%;
+  padding-top: 5%;
+}
+.tab-style-3 .nav a:after {
+  width: 0px;
+  height: 3px;
+  background: #00a6ff;
+}
+/*--ingreso-end--*/
 
 .theme2nd-bg {
   background-color: #53d267;
@@ -4841,7 +4861,7 @@ mark,
 .tab-style-3 .nav a:after {
   width: 0px;
   height: 3px;
-  background: #53d267;
+  background: #00a6ff;
 }
 .tab-style-3 .nav a:before {
   width: 20px;
